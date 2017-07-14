@@ -1,0 +1,245 @@
+
+/*############################*/
+/*** layout ***/
+/*############################*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #777;
+    background-color: #eeeeee;
+ }
+.p {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    text-align: center;
+    padding-top: 130px;
+    margin: 10px 0 10px;
+}
+a {
+    font-size: 20px;
+}
+#Intro {
+    top: 0;
+    position: fixed;
+    z-index: 5000;
+    background-color: #FE5F55;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: right;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+}
+.thumbnail .caption {
+    color:#777;
+}
+.thumbnail {
+    text-align: center;
+}
+
+.modal-dialog {
+    position: relative;
+    width: 65%;
+    margin-top: 60px;
+}
+.glyphicon {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   z-index: 1000;
+}
+
+@media (max-width: 767px) {
+    #Intro {
+        text-align: center;
+        font-size: 15px;
+    }
+    .fa-2x {
+        margin-top: 15px;
+        font-size: 32px !important;
+    }
+    .modal-dialog {
+        width: 95%;
+    }
+}
+
+
+/*############################*/
+/*** navbar ***/
+/*############################*/
+
+#myNavbar {
+    min-height: 100px;
+    top: 50px;
+}
+.navbar-default .navbar-nav>li>a {
+    line-height: 80px;
+}
+.navbar-default {
+    border-radius: 0 !important;
+    border-top: none;
+    box-shadow: none;
+    top: 40px;
+}
+.navbar-default .navbar-brand {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-toggle {
+        border-color: #333;
+        margin-top: 32px;
+    }
+    .navbar-header {
+        min-height: 100px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        line-height: 50px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        margin-top: 20px;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        line-height: 51px;
+    }
+}
+/*############################*/
+/*** footer ***/
+/*############################*/
+
+footer {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+}
+
+footer .fa {
+    color: #9d9d9d;
+    font-size: 24px;
+}
+
+
+/*############################*/
+/*** contact page ***/
+/*############################*/
+
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.white {
+    margin: 100px;
+    border: #cdcdcd medium solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+@media (max-width: 767px) {
+    .white {
+        /*border-width: 0px;*/
+        border: none;
+        margin: 0px;
+    }
+}
+
+
+/*############################*/
+/*** item pages ***/
+/*############################*/
+
+.col-md-6 img {
+    margin-top: 20px;
+}
+.breadcrumb a {
+    color: #777;
+}
+.item {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 25px;
+}
+.price {
+    font-weight: 400;
+    font-size: 30px;
+}
+.product-name {
+    margin-top: 20px;
+    font-size: 55px;
+}
+.breadcrumb {
+    background-color: #eeeeee;
+    font-size: 20px;
+}
+@media (max-width: 767px) {
+    
+    .item-container .col-md-6 {
+        width: 93%;
+    }
+    .col-md-6 img {
+        margin-top: 0px;
+    }
+}
+
+
+/*############################*/
+/*** homepage ***/
+/*############################*/
+
+.jumbotron p {
+    font-size: 18px;
+}
+.container .home-container {
+    margin-top: 40px;
+}
+
+
+/*############################*/
+/*** modal  ***/
+/*############################*/
+
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/*@media (max-width: 767px) {
+    .modal-dialog {
+        width: 94%;
+        margin-top: 40px;
+    }
+}*/
+
+
+/*############################*/
+
+/*** contact form  ***/
+
+/*############################*/
+
+.form-horizontal .col-sm-6 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.white {
+    margin-top: 100px;
+}
